@@ -1,0 +1,1 @@
+# rails-virtual-attributes-example
