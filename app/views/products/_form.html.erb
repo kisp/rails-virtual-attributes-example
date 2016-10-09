@@ -17,13 +17,13 @@
   </div>
 
   <div class="field">
-    <%= f.label :price_in_cents %>
-    <%= f.number_field :price_in_cents %>
+    <%= f.label :price_in_dollars %>
+    <%= f.text_field :price_in_dollars %>
   </div>
 
   <div class="field">
-    <%= f.label :released_at %>
-    <%= f.datetime_select :released_at %>
+    <%= f.label :released_at_text %>
+    <%= f.text_field :released_at_text, size: 100 %>
   </div>
 
   <div class="actions">
